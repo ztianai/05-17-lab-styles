@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Stylin\'</string>
+    <string name="label1">Label A</string>
+    <string name="value1">Some information</string>
+    <string name="label2">Label B</string>
+    <string name="value2">More data is here</string>
+    <string name="label3">Label C</string>
+    <string name="value3">A little bit more knowledge</string>
+    <string name="logoDescription">I School Logo</string>
+    <string name="buttonLabel">A Button</string>
+</resources>
