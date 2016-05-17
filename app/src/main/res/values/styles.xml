@@ -4,11 +4,40 @@
 
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="textColorPrimary">#4b2e83</item>
+        <item name="colorPrimary">#85754d</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextStyle" >
+        <item name="android:textSize">22dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextStyle.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin</item>
+
+
+    </style>
+
+    <style name="TextStyle.Label.Gold">
+        <item name="android:background">?android:colorPrimary</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/MediaButton">
+
+    </style>
+
+    <style name="Logo">
+        <item name="android:tint">?android:colorPrimaryDark</item>
+    </style>
 </resources>

@@ -18,6 +18,7 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/ischool_symbol_only_black"
         android:contentDescription="@string/logoDescription"
+        style="@style/Logo"
         />
 
     <RelativeLayout
@@ -29,64 +30,47 @@
 
         <TextView
             android:id="@+id/label1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:textSize="18sp"
-            android:textStyle="bold"
+
             android:text="@string/label1"
+            style="@style/TextStyle.Label"
             />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label1"
             android:layout_alignBaseline="@id/label1"
-            android:textSize="18sp"
             android:text="@string/value1"
+            style="@style/TextStyle"
             />
 
         <TextView
             android:id="@+id/label2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
             android:layout_below="@id/label1"
-            android:textSize="18sp"
-            android:textStyle="bold"
+
             android:text="@string/label2"
+            style="@style/TextStyle.Label.Gold"
             />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label2"
             android:layout_alignBaseline="@id/label2"
-            android:textSize="18sp"
             android:text="@string/value2"
+            style="@style/TextStyle"
             />
 
         <TextView
             android:id="@+id/label3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:layout_below="@id/label2"
-            android:textSize="18sp"
-            android:textStyle="bold"
+
             android:text="@string/label3"
+            style="@style/TextStyle.Label"
             />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label3"
             android:layout_alignBaseline="@id/label3"
-            android:textSize="18sp"
             android:text="@string/value3"
+            style="@style/TextStyle"
             />
 
     </RelativeLayout>
@@ -97,6 +81,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="@string/buttonLabel"
+        style="@style/ButtonStyle"
         />
 
 </RelativeLayout>
